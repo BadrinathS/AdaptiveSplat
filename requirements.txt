@@ -1,0 +1,47 @@
+# Core
+numpy==1.25.0
+wheel
+tqdm
+lightning
+hydra-core
+jaxtyping
+beartype
+dacite
+omegaconf
+einops
+colorama
+tabulate
+pydantic
+
+# Logging / experiment tracking
+wandb
+
+# Vision / geometry
+scikit-image
+scikit-video
+opencv-python
+Pillow
+imageio
+matplotlib
+colorspacious
+timm
+lpips
+e3nn
+plyfile
+open3d
+svg.py
+safetensors
+huggingface_hub
+gradio
+moviepy==1.0.3
+
+# Our fork: wavelet-superpixel Gaussian pruning
+PyWavelets
+torch-kmeans
+
+# GPU / CUDA-specific (match your CUDA/torch build)
+# torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0  (install first, see README)
+xformers==0.0.24
+torch_scatter==2.1.2
+git+https://github.com/facebookresearch/pytorch3d.git
+https://github.com/nerfstudio-project/gsplat/releases/download/v1.4.0/gsplat-1.4.0%2Bpt22cu121-cp310-cp310-linux_x86_64.whl

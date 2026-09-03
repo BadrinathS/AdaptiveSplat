@@ -1,0 +1,7 @@
+name: interleaved
+
+num_context_views: 3
+skip: 1
+
+# Max images (scenes x views) per GPU; controls the dynamic batch size.
+max_img_per_gpu: 24

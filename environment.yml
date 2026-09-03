@@ -1,0 +1,15 @@
+name: adaptive-splat
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  # Install PyTorch matching your CUDA toolkit (example: CUDA 12.1).
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - pytorch-cuda=12.1
+  - pip:
+      - -r requirements.txt
